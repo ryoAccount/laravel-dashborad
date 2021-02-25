@@ -4,4 +4,4 @@ export default {
   mounted() {
     initGlobalOptions(Chart);
   }
-}
+};

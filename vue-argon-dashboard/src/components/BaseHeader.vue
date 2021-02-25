@@ -17,7 +17,7 @@
         description: 'Header background type'
       }
     }
-  }
+  };
 </script>
 <style>
 </style>

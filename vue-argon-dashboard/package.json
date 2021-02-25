@@ -60,7 +60,8 @@
       "eslint:recommended"
     ],
     "rules": {
-      "no-unused-vars": "off"
+      "no-unused-vars": "off",
+      "semi": [2, "always"]
     },
     "parserOptions": {
       "parser": "babel-eslint"
@@ -75,5 +76,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "lint-staged": {
+    "*.{js,vue}": "eslint --fix"
+  }
 }

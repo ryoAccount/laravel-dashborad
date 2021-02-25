@@ -96,10 +96,10 @@
     </div>
 </template>
 <script>
-  import Vue from 'vue'
-  import VueClipboard from 'vue-clipboard2'
-  import BTooltipDirective from 'bootstrap-vue/esm/directives/tooltip'
-  Vue.use(VueClipboard)
+  import Vue from 'vue';
+  import VueClipboard from 'vue-clipboard2';
+  import BTooltipDirective from 'bootstrap-vue/esm/directives/tooltip';
+  Vue.use(VueClipboard);
   export default {
     directives: {
       'b-tooltip': BTooltipDirective
@@ -209,14 +209,14 @@
           { name: "ni ni-world-2" },
           { name: "ni ni-ui-04" }
         ]
-      }
+      };
     },
     methods: {
       onCopy() {
         this.$notify({
           type: 'success',
           title: 'Copied to clipboard'
-        })
+        });
       }
     }
   };

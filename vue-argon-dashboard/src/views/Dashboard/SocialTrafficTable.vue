@@ -81,10 +81,10 @@
             progressType: 'gradient-warning',
           }
         ]
-      }
+      };
     }
 
-  }
+  };
 </script>
 <style>
 </style>

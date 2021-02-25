@@ -56,8 +56,8 @@ export default {
     },
     colsWithValue() {
       return (row) => {
-        return this.columns.filter(column => this.hasValue(row, column))
-      }
+        return this.columns.filter(column => this.hasValue(row, column));
+      };
     }
   },
   methods: {

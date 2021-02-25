@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import DashboardLayout from '@/layout/DashboardLayout'
-import AuthLayout from '@/layout/AuthLayout'
+import Vue from 'vue';
+import Router from 'vue-router';
+import DashboardLayout from '@/layout/DashboardLayout';
+import AuthLayout from '@/layout/AuthLayout';
 // Example pages
 import UserProfile from "@/views/Examples/UserProfile.vue";
 import ListUserPage from "@/views/Examples/UserManagement/ListUserPage.vue";
@@ -10,7 +10,7 @@ const PasswordReset = () =>
   import(/* webpackChunkName: "password" */ "@/views/Password/Reset.vue");
 const PasswordEmail = () =>
   import(/* webpackChunkName: "password" */ "@/views/Password/Email.vue");
-Vue.use(Router)
+Vue.use(Router);
 
 //import middleware
 import auth from "@/middleware/auth";

@@ -122,7 +122,7 @@ function chartOptions(Chart) {
       padding: 10,
       callback: function (value) {
         if (!(value % 10)) {
-          return value
+          return value;
         }
       }
     }

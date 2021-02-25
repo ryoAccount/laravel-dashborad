@@ -78,7 +78,7 @@
 <script>
   export default {
     mounted() {
-      let google= window.google
+      let google= window.google;
       let map = document.getElementById('map-canvas');
       let lat = map.getAttribute('data-lat');
       let lng = map.getAttribute('data-lng');
@@ -98,7 +98,7 @@
           {"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
           {"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},
           {"featureType":"water","elementType":"all","stylers":[{"color":'#5e72e4'},{"visibility":"on"}]}]
-      }
+      };
 
       map = new google.maps.Map(map, mapOptions);
 
@@ -120,7 +120,7 @@
         infowindow.open(map, marker);
       });
     }
-  }
+  };
 </script>
 <style>
 </style>

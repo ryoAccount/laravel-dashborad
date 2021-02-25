@@ -75,7 +75,7 @@
     </div>
 </template>
 <script>
-  import ProjectsTable from './Tables/ProjectsTable'
+  import ProjectsTable from './Tables/ProjectsTable';
   export default {
     name: 'tables',
     components: {

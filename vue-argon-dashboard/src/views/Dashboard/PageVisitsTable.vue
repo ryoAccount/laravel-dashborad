@@ -86,9 +86,9 @@
             bounceRateDirection: 'down'
           }
         ]
-      }
+      };
     }
-  }
+  };
 </script>
 <style>
 </style>
